@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xinhongwang/ws02_tools/build/cpp06_urdf
+-- Install configuration: ""
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/launch
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/launch/gazebo_sim.launch.py
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/launch/display.launch.py
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/rviz
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/rviz/urdf.rviz
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/model.config
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_camera.urdf.xacro
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/demo04_base_include.urdf.xacro
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/common_inertia.xacro
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car.urdf.xacro
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_base.urdf.xacro
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/demo03_base_func.urdf.xacro
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/demo02_base_pro.urdf.xacro
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_laser.urdf.xacro
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/demo01_helloworld.urdf.xacro
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/fis_robot.urdf
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/my_car.pdf
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo05_exercise.urdf
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo02_link.urdf
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo01_helloworld.urdf
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/my_car.gv
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo03_joint.urdf
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo04_basefootprint.urdf
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/meshes
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/meshes/burger_base.stl
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/worlds
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/worlds/custorm_room.world
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/worlds/room
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/worlds/room/model.sdf
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/worlds/room/model.config
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/worlds/empty.world
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/config
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/config/controllers.yaml
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/config/display_robot_model.rviz
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/package_run_dependencies/cpp06_urdf
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/parent_prefix_path/cpp06_urdf
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.sh
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.dsv
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/path.sh
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/path.dsv
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/local_setup.bash
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/local_setup.sh
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/local_setup.zsh
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/local_setup.dsv
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.dsv
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/packages/cpp06_urdf
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig.cmake
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig-version.cmake
+-- Installing: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.xml
