@@ -1,0 +1,23 @@
+[1.018s] Invoking command in '/home/xinhongwang/ws02_tools/build/py01_launch': PYTHONPATH=/home/xinhongwang/ws02_tools/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinhongwang/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xinhongwang/ws02_tools/build/py01_launch/build --no-deps symlink_data
+[1.289s] running develop
+[1.455s] running egg_info
+[1.456s] creating py01_launch.egg-info
+[1.456s] writing py01_launch.egg-info/PKG-INFO
+[1.456s] writing dependency_links to py01_launch.egg-info/dependency_links.txt
+[1.456s] writing entry points to py01_launch.egg-info/entry_points.txt
+[1.457s] writing requirements to py01_launch.egg-info/requires.txt
+[1.457s] writing top-level names to py01_launch.egg-info/top_level.txt
+[1.457s] writing manifest file 'py01_launch.egg-info/SOURCES.txt'
+[1.459s] reading manifest file 'py01_launch.egg-info/SOURCES.txt'
+[1.460s] writing manifest file 'py01_launch.egg-info/SOURCES.txt'
+[1.462s] running build_ext
+[1.462s] Creating /home/xinhongwang/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01-launch.egg-link (link to .)
+[1.463s] 
+[1.463s] Installed /home/xinhongwang/ws02_tools/build/py01_launch
+[1.463s] running symlink_data
+[1.463s] creating /home/xinhongwang/ws02_tools/install/py01_launch/share/ament_index
+[1.463s] creating /home/xinhongwang/ws02_tools/install/py01_launch/share/ament_index/resource_index
+[1.463s] creating /home/xinhongwang/ws02_tools/install/py01_launch/share/ament_index/resource_index/packages
+[1.464s] symbolically linking /home/xinhongwang/ws02_tools/build/py01_launch/resource/py01_launch -> /home/xinhongwang/ws02_tools/install/py01_launch/share/ament_index/resource_index/packages
+[1.464s] symbolically linking /home/xinhongwang/ws02_tools/build/py01_launch/package.xml -> /home/xinhongwang/ws02_tools/install/py01_launch/share/py01_launch
+[1.504s] Invoked command in '/home/xinhongwang/ws02_tools/build/py01_launch' returned '0': PYTHONPATH=/home/xinhongwang/ws02_tools/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinhongwang/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xinhongwang/ws02_tools/build/py01_launch/build --no-deps symlink_data

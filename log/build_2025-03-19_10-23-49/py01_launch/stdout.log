@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing py01_launch.egg-info/PKG-INFO
+writing dependency_links to py01_launch.egg-info/dependency_links.txt
+writing entry points to py01_launch.egg-info/entry_points.txt
+writing requirements to py01_launch.egg-info/requires.txt
+writing top-level names to py01_launch.egg-info/top_level.txt
+reading manifest file 'py01_launch.egg-info/SOURCES.txt'
+writing manifest file 'py01_launch.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/xinhongwang/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01-launch.egg-link (link to .)
+
+Installed /home/xinhongwang/ws02_tools/build/py01_launch
+running symlink_data

@@ -1,0 +1,16 @@
+[0.946s] Invoking command in '/home/xinhongwang/ws02_tools/build/py01_launch': PYTHONPATH=/home/xinhongwang/ws02_tools/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinhongwang/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xinhongwang/ws02_tools/build/py01_launch/build --no-deps symlink_data
+[1.190s] running develop
+[1.353s] running egg_info
+[1.353s] writing py01_launch.egg-info/PKG-INFO
+[1.353s] writing dependency_links to py01_launch.egg-info/dependency_links.txt
+[1.354s] writing entry points to py01_launch.egg-info/entry_points.txt
+[1.354s] writing requirements to py01_launch.egg-info/requires.txt
+[1.355s] writing top-level names to py01_launch.egg-info/top_level.txt
+[1.356s] reading manifest file 'py01_launch.egg-info/SOURCES.txt'
+[1.358s] writing manifest file 'py01_launch.egg-info/SOURCES.txt'
+[1.359s] running build_ext
+[1.359s] Creating /home/xinhongwang/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01-launch.egg-link (link to .)
+[1.360s] 
+[1.360s] Installed /home/xinhongwang/ws02_tools/build/py01_launch
+[1.360s] running symlink_data
+[1.389s] Invoked command in '/home/xinhongwang/ws02_tools/build/py01_launch' returned '0': PYTHONPATH=/home/xinhongwang/ws02_tools/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinhongwang/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/xinhongwang/ws02_tools/build/py01_launch/build --no-deps symlink_data
