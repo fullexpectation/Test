@@ -1,0 +1,27 @@
+[0.017s] Invoking command in '/home/xinhongwang/ws02_tools/build/car_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xinhongwang/ws02_tools/build/car_navigation2 -- -j8 -l8
+[0.085s] Invoked command in '/home/xinhongwang/ws02_tools/build/car_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xinhongwang/ws02_tools/build/car_navigation2 -- -j8 -l8
+[0.101s] Invoking command in '/home/xinhongwang/ws02_tools/build/car_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xinhongwang/ws02_tools/build/car_navigation2
+[0.116s] -- Install configuration: ""
+[0.116s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/launch
+[0.116s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/launch/navigation2.launch.py
+[0.116s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/config
+[0.116s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/config/nav2_params.yaml
+[0.116s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/maps
+[0.117s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/maps/room.pgm
+[0.117s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/maps/room.yaml
+[0.117s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/ament_index/resource_index/package_run_dependencies/car_navigation2
+[0.117s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/ament_index/resource_index/parent_prefix_path/car_navigation2
+[0.117s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/environment/ament_prefix_path.sh
+[0.117s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/environment/ament_prefix_path.dsv
+[0.117s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/environment/path.sh
+[0.117s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/environment/path.dsv
+[0.117s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/local_setup.bash
+[0.117s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/local_setup.sh
+[0.117s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/local_setup.zsh
+[0.117s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/local_setup.dsv
+[0.118s] -- Installing: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/package.dsv
+[0.119s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/ament_index/resource_index/packages/car_navigation2
+[0.119s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/cmake/car_navigation2Config.cmake
+[0.120s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/cmake/car_navigation2Config-version.cmake
+[0.120s] -- Up-to-date: /home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/package.xml
+[0.122s] Invoked command in '/home/xinhongwang/ws02_tools/build/car_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xinhongwang/ws02_tools/build/car_navigation2

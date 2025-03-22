@@ -1,0 +1,20 @@
+[1.173s] Invoking command in '/home/xinhongwang/ws02_tools/src/py01_launch': PYTHONPATH=/home/xinhongwang/ws02_tools/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinhongwang/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/xinhongwang/ws02_tools/build/py01_launch/build install --record /home/xinhongwang/ws02_tools/build/py01_launch/install.log --single-version-externally-managed install_data
+[1.441s] running egg_info
+[1.442s] writing ../../build/py01_launch/py01_launch.egg-info/PKG-INFO
+[1.443s] writing dependency_links to ../../build/py01_launch/py01_launch.egg-info/dependency_links.txt
+[1.443s] writing entry points to ../../build/py01_launch/py01_launch.egg-info/entry_points.txt
+[1.444s] writing requirements to ../../build/py01_launch/py01_launch.egg-info/requires.txt
+[1.444s] writing top-level names to ../../build/py01_launch/py01_launch.egg-info/top_level.txt
+[1.446s] reading manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[1.447s] writing manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[1.447s] running build
+[1.447s] running build_py
+[1.448s] running install
+[1.448s] running install_lib
+[1.452s] running install_data
+[1.452s] running install_egg_info
+[1.454s] removing '/home/xinhongwang/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[1.455s] Copying ../../build/py01_launch/py01_launch.egg-info to /home/xinhongwang/ws02_tools/install/py01_launch/lib/python3.10/site-packages/py01_launch-0.0.0-py3.10.egg-info
+[1.457s] running install_scripts
+[1.479s] writing list of installed files to '/home/xinhongwang/ws02_tools/build/py01_launch/install.log'
+[1.513s] Invoked command in '/home/xinhongwang/ws02_tools/src/py01_launch' returned '0': PYTHONPATH=/home/xinhongwang/ws02_tools/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xinhongwang/ws02_tools/install/py01_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/xinhongwang/ws02_tools/build/py01_launch/build install --record /home/xinhongwang/ws02_tools/build/py01_launch/install.log --single-version-externally-managed install_data

@@ -1,0 +1,56 @@
+[0.025s] Invoking command in '/home/xinhongwang/ws02_tools/build/cpp06_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinhongwang/ws02_tools/install/py01_launch:/opt/ros/humble /usr/bin/cmake --build /home/xinhongwang/ws02_tools/build/cpp06_urdf -- -j8 -l8
+[0.135s] Invoked command in '/home/xinhongwang/ws02_tools/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinhongwang/ws02_tools/install/py01_launch:/opt/ros/humble /usr/bin/cmake --build /home/xinhongwang/ws02_tools/build/cpp06_urdf -- -j8 -l8
+[0.155s] Invoking command in '/home/xinhongwang/ws02_tools/build/cpp06_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinhongwang/ws02_tools/install/py01_launch:/opt/ros/humble /usr/bin/cmake --install /home/xinhongwang/ws02_tools/build/cpp06_urdf
+[0.165s] -- Install configuration: ""
+[0.166s] -- Execute custom install script
+[0.168s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/launch/car_controller_launch.py
+[0.168s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/launch/display.launch.py
+[0.169s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/launch/gazebo_sim.launch.py
+[0.169s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/rviz/urdf.rviz
+[0.169s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/model.config
+[0.170s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo01_helloworld.urdf
+[0.170s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo02_link.urdf
+[0.171s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo03_joint.urdf
+[0.171s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo04_basefootprint.urdf
+[0.171s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo05_exercise.urdf
+[0.172s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/fish_robot.urdf
+[0.172s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/my_car.gv
+[0.173s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/my_car.pdf
+[0.173s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/two_wheels.urdf
+[0.174s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car.urdf.xacro
+[0.174s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_base.urdf.xacro
+[0.175s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_camera.urdf.xacro
+[0.176s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_control.urdf.xacro
+[0.176s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_imu.urdf.xacro
+[0.177s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_laser.urdf.xacro
+[0.177s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/common_inertia.xacro
+[0.177s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/demo01_helloworld.urdf.xacro
+[0.178s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/demo02_base_pro.urdf.xacro
+[0.178s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/demo03_base_func.urdf.xacro
+[0.178s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/demo04_base_include.urdf.xacro
+[0.179s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/gazebo_control_plugin.xacro
+[0.179s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/gazebo_sensor_plugin.xacro
+[0.179s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/meshes/burger_base.stl
+[0.180s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/worlds/custom_room.world
+[0.180s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/worlds/empty.world
+[0.181s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/worlds/room/model.config
+[0.182s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/worlds/room/model.sdf
+[0.182s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/config/car_controller.yaml
+[0.182s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/config/controllers.yaml
+[0.182s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/config/display_robot_model.rviz
+[0.183s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/package_run_dependencies/cpp06_urdf
+[0.183s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/parent_prefix_path/cpp06_urdf
+[0.184s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.sh
+[0.184s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.dsv
+[0.185s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/path.sh
+[0.185s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/path.dsv
+[0.186s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/local_setup.bash
+[0.186s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/local_setup.sh
+[0.187s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/local_setup.zsh
+[0.187s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/local_setup.dsv
+[0.188s] -- Symlinking: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.dsv
+[0.201s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/packages/cpp06_urdf
+[0.202s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig.cmake
+[0.202s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig-version.cmake
+[0.202s] -- Up-to-date symlink: /home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.xml
+[0.206s] Invoked command in '/home/xinhongwang/ws02_tools/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xinhongwang/ws02_tools/install/py01_launch:/opt/ros/humble /usr/bin/cmake --install /home/xinhongwang/ws02_tools/build/cpp06_urdf

@@ -1,0 +1,202 @@
+[0.316s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.316s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7685a7ffc220>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7685a7fc7d00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7685a7fc7d00>>)
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.788s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xinhongwang/ws02_tools'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extension 'ignore_ament_install'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extensions ['colcon_pkg']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extension 'colcon_pkg'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extensions ['colcon_meta']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extension 'colcon_meta'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extensions ['ros']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extension 'ros'
+[0.814s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_navigation2' with type 'ros.ament_cmake' and name 'car_navigation2'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extension 'ignore'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extension 'ignore_ament_install'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extensions ['colcon_pkg']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extension 'colcon_pkg'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extensions ['colcon_meta']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extension 'colcon_meta'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extensions ['ros']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extension 'ros'
+[0.815s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp06_urdf' with type 'ros.ament_cmake' and name 'cpp06_urdf'
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.870s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/xinhongwang/ws02_tools/install
+[0.871s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/xinhongwang/ws00_helloworld/install
+[0.875s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 409 installed packages in /opt/ros/humble
+[0.876s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'cmake_args' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'cmake_target' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.050s] DEBUG:colcon.colcon_core.verb:Building package 'car_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xinhongwang/ws02_tools/build/car_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xinhongwang/ws02_tools/install/car_navigation2', 'merge_install': False, 'path': '/home/xinhongwang/ws02_tools/src/car_navigation2', 'symlink_install': False, 'test_result_base': None}
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_args' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_target' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[1.050s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.050s] DEBUG:colcon.colcon_core.verb:Building package 'cpp06_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xinhongwang/ws02_tools/build/cpp06_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xinhongwang/ws02_tools/install/cpp06_urdf', 'merge_install': False, 'path': '/home/xinhongwang/ws02_tools/src/cpp06_urdf', 'symlink_install': False, 'test_result_base': None}
+[1.051s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.052s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.052s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xinhongwang/ws02_tools/src/car_navigation2' with build type 'ament_cmake'
+[1.052s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xinhongwang/ws02_tools/src/car_navigation2'
+[1.060s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.060s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.060s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.067s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xinhongwang/ws02_tools/src/cpp06_urdf' with build type 'ament_cmake'
+[1.067s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xinhongwang/ws02_tools/src/cpp06_urdf'
+[1.067s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.068s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinhongwang/ws02_tools/build/car_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xinhongwang/ws02_tools/build/car_navigation2 -- -j8 -l8
+[1.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinhongwang/ws02_tools/build/cpp06_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xinhongwang/ws02_tools/build/cpp06_urdf -- -j8 -l8
+[1.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinhongwang/ws02_tools/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xinhongwang/ws02_tools/build/cpp06_urdf -- -j8 -l8
+[1.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinhongwang/ws02_tools/build/cpp06_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xinhongwang/ws02_tools/build/cpp06_urdf
+[1.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinhongwang/ws02_tools/build/car_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xinhongwang/ws02_tools/build/car_navigation2 -- -j8 -l8
+[1.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xinhongwang/ws02_tools/build/car_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xinhongwang/ws02_tools/build/car_navigation2
+[1.337s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_navigation2)
+[1.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinhongwang/ws02_tools/build/car_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xinhongwang/ws02_tools/build/car_navigation2
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/car_navigation2' for CMake module files
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/car_navigation2' for CMake config files
+[1.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_navigation2', 'cmake_prefix_path')
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/hook/cmake_prefix_path.ps1'
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/hook/cmake_prefix_path.dsv'
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/hook/cmake_prefix_path.sh'
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/car_navigation2/bin'
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/car_navigation2/lib/pkgconfig/car_navigation2.pc'
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/car_navigation2/lib/python3.10/site-packages'
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/car_navigation2/bin'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/package.ps1'
+[1.358s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/package.dsv'
+[1.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/package.sh'
+[1.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/package.bash'
+[1.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/package.zsh'
+[1.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinhongwang/ws02_tools/install/car_navigation2/share/colcon-core/packages/car_navigation2)
+[1.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_navigation2)
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/car_navigation2' for CMake module files
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/car_navigation2' for CMake config files
+[1.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_navigation2', 'cmake_prefix_path')
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/hook/cmake_prefix_path.ps1'
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/hook/cmake_prefix_path.dsv'
+[1.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/hook/cmake_prefix_path.sh'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/car_navigation2/bin'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/car_navigation2/lib/pkgconfig/car_navigation2.pc'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/car_navigation2/lib/python3.10/site-packages'
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/car_navigation2/bin'
+[1.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/package.ps1'
+[1.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/package.dsv'
+[1.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/package.sh'
+[1.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/package.bash'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinhongwang/ws02_tools/install/car_navigation2/share/car_navigation2/package.zsh'
+[1.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinhongwang/ws02_tools/install/car_navigation2/share/colcon-core/packages/car_navigation2)
+[1.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp06_urdf)
+[1.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xinhongwang/ws02_tools/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xinhongwang/ws02_tools/build/cpp06_urdf
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/cpp06_urdf' for CMake module files
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/cpp06_urdf' for CMake config files
+[1.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp06_urdf', 'cmake_prefix_path')
+[1.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.ps1'
+[1.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.dsv'
+[1.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.sh'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/cpp06_urdf/bin'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/cpp06_urdf/lib/pkgconfig/cpp06_urdf.pc'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/cpp06_urdf/lib/python3.10/site-packages'
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/cpp06_urdf/bin'
+[1.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.ps1'
+[1.434s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.dsv'
+[1.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.sh'
+[1.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.bash'
+[1.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.zsh'
+[1.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/colcon-core/packages/cpp06_urdf)
+[1.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp06_urdf)
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/cpp06_urdf' for CMake module files
+[1.439s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/cpp06_urdf' for CMake config files
+[1.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp06_urdf', 'cmake_prefix_path')
+[1.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.ps1'
+[1.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.dsv'
+[1.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.sh'
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/cpp06_urdf/bin'
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/cpp06_urdf/lib/pkgconfig/cpp06_urdf.pc'
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/cpp06_urdf/lib/python3.10/site-packages'
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/home/xinhongwang/ws02_tools/install/cpp06_urdf/bin'
+[1.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.ps1'
+[1.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.dsv'
+[1.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.sh'
+[1.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.bash'
+[1.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.zsh'
+[1.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xinhongwang/ws02_tools/install/cpp06_urdf/share/colcon-core/packages/cpp06_urdf)
+[1.449s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.449s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.449s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.449s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.468s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.468s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.469s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.541s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.542s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xinhongwang/ws02_tools/install/local_setup.ps1'
+[1.543s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xinhongwang/ws02_tools/install/_local_setup_util_ps1.py'
+[1.545s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xinhongwang/ws02_tools/install/setup.ps1'
+[1.548s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xinhongwang/ws02_tools/install/local_setup.sh'
+[1.549s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xinhongwang/ws02_tools/install/_local_setup_util_sh.py'
+[1.549s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xinhongwang/ws02_tools/install/setup.sh'
+[1.551s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xinhongwang/ws02_tools/install/local_setup.bash'
+[1.553s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xinhongwang/ws02_tools/install/setup.bash'
+[1.554s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xinhongwang/ws02_tools/install/local_setup.zsh'
+[1.555s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xinhongwang/ws02_tools/install/setup.zsh'

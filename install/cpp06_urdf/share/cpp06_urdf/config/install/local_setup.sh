@@ -1,0 +1,1 @@
+/home/xinhongwang/ws02_tools/src/cpp06_urdf/config/install/local_setup.sh

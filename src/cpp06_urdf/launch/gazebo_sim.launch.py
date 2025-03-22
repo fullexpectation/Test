@@ -1,8 +1,7 @@
 import launch
 import launch_ros
 from launch.substitutions import Command, LaunchConfiguration
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, RegisterEventHandler, TimerAction
-from launch.event_handlers import OnProcessStart
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, TimerAction, ExecuteProcess
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from ament_index_python.packages import get_package_share_directory
 import os
@@ -10,7 +9,8 @@ import os
 def generate_launch_description():
     urdf_packages_path = get_package_share_directory("cpp06_urdf")
     default_xacro_path = os.path.join(urdf_packages_path, 'urdf', 'xacro', 'car.urdf.xacro')
-    default_gazebo_world_path = os.path.join(urdf_packages_path, 'worlds', 'custom_room.world')  # 确保文件名正确
+    default_gazebo_world_path = os.path.join(urdf_packages_path, 'worlds', 'house2')
+    controllers_yaml_path = os.path.join(urdf_packages_path, 'config', 'car_controller.yaml')
 
     # 声明参数
     declare_model_arg = DeclareLaunchArgument(
@@ -18,17 +18,6 @@ def generate_launch_description():
         default_value=default_xacro_path,
         description='Xacro/URDF 模型文件路径'
     )
-    declare_entity_name_arg = DeclareLaunchArgument(
-        name='entity_name',
-        default_value='my_robot',
-        description='Gazebo 实体名称'
-    )
-
-    # 设置 Gazebo 模型路径
-    gazebo_model_path = os.path.join(urdf_packages_path, 'urdf') + ':' + \
-                        os.path.join(urdf_packages_path, 'models') + ':' + \
-                        os.environ.get('GAZEBO_MODEL_PATH', '')
-    os.environ['GAZEBO_MODEL_PATH'] = gazebo_model_path
 
     # 生成机器人描述
     robot_description_value = launch_ros.parameter_descriptions.ParameterValue(
@@ -51,28 +40,49 @@ def generate_launch_description():
         launch_arguments={'world': default_gazebo_world_path}.items()
     )
 
-    # 生成 spawn_entity 节点（直接使用 TimerAction 延迟）
-    spawn_entity = launch_ros.actions.Node(
-        package='gazebo_ros',
-        executable='spawn_entity.py',
-        arguments=[
-            '-entity', LaunchConfiguration('entity_name'),
-            '-topic', '/robot_description',
-            '-x', '0.0', '-y', '0.0', '-z', '0.1'
-        ],
+    # 延迟 5 秒后，在 Gazebo 中生成机器人
+    spawn_entity = TimerAction(
+        period=5.0,
+        actions=[
+            launch_ros.actions.Node(
+                package='gazebo_ros',
+                executable='spawn_entity.py',
+                arguments=['-entity', 'my_robot', '-topic', '/robot_description', '-x', '0.0', '-y', '0.0', '-z', '0.1'],
+                output='screen'
+            )
+        ]
+    )
+
+    # 启动 controller_manager
+    controller_manager = launch_ros.actions.Node(
+        package="controller_manager",
+        executable="ros2_control_node",
+        parameters=[controllers_yaml_path],
+        output="screen"
+    )
+
+    # 加载控制器
+    load_joint_state_broadcaster = ExecuteProcess(
+        cmd=['ros2', 'control', 'load_controller', 'joint_state_broadcaster', '--set-state', 'active'],
         output='screen'
     )
 
-    # 延迟 5 秒启动 spawn_entity
-    delayed_spawn = TimerAction(
-        period=5.0,
-        actions=[spawn_entity]
-    )
+    load_effort_controller = ExecuteProcess(
+        cmd=['ros2', 'control', 'load_controller', 'car_effort_controller', '--set-state', 'active'],
+        output='screen'
+    )   
+
+    load_diff_drive_controller = ExecuteProcess(
+        cmd=['ros2', 'control', 'load_controller', 'car_diff_drive_controller', '--set-state', 'active'],
+        output='screen'
+    ) 
 
     return launch.LaunchDescription([
         declare_model_arg,
-        declare_entity_name_arg,
         robot_state_publisher,
         launch_gazebo,
-        delayed_spawn  # 直接添加延迟动作，无需事件处理器
+        spawn_entity,
+        controller_manager,
+        TimerAction(period=3.0, actions=[load_joint_state_broadcaster]),
+        TimerAction(period=6.0, actions=[load_effort_controller, load_diff_drive_controller]),
     ])

@@ -1,0 +1,1 @@
+/home/xinhongwang/ws02_tools/src/cpp06_urdf/config/install/_local_setup_util_sh.py

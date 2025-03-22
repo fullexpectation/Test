@@ -91,11 +91,10 @@
             <!-- 阻尼系数 -->
             <kd value="1.0" />
         </gazebo>
-      
     </xacro:macro>
     <!-- 6.调用宏生成多个车轮 -->
     <xacro:wheel_func link_name="front_left" front_flag="1" left_flag="1" />
     <xacro:wheel_func link_name="front_right" front_flag="1" left_flag="-1" />
-    <xacro:wheel_func link_name="back_left" front_flag="-1" left_flag="1" />
-    <xacro:wheel_func link_name="back_right" front_flag="-1" left_flag="-1" />
+    <!-- <xacro:wheel_func link_name="back_left" front_flag="-1" left_flag="1" /> -->
+    <!-- <xacro:wheel_func link_name="back_right" front_flag="-1" left_flag="-1" /> -->
 </robot>
